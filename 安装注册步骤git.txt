@@ -1,0 +1,18 @@
+打开：D:\soft\wamp64\www\php\blog
+打开：gei bash
+命令：git config --global user.name collskyxyz
+命令：git config --global user.email 920707872@qq.com
+查看远程仓库:git remote
+查看仓库地址:git remote -v
+
+添加文件到仓库：git add blog
+
+查看状态：get status
+
+本地仓库代码推送到远程仓库
+命令：git remote add yuanyaoorigin https://github.com/collskyxyz/blog.git
+本地库的所有内容推送到远程库上：git push -u yuanyaoorigin master
+
+
+删除库：命令:git remote remove origin
+修改远程库名称：git remote rename origin origin66
